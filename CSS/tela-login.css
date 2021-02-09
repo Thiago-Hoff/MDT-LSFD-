@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap');
+
+body{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(97, 97, 97);
+    font-family: Helvetica, sans-serif;
+    font-family: 'Jost', sans-serif;
+}
+#computador{
+    width: 60vw;
+    height: 60vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(154deg, rgba(255,255,255,1) 50%, rgba(215,215,215,1) 50%, rgba(215,215,215,1) 100%);    
+    border-radius: 0.5vw;
+
+}
+
+
+
+#logo{
+    width: 6vw;
+    height: 12vh;
+    margin-top: 5vh;
+    margin-left: 26vw;
+}
+
+#mdt{
+    width: 20;
+    height: 12vh;
+    margin-left: 19vw;
+}
+
+#usuario{
+    width: 18.6vw;
+    height: 4.5vh;
+    margin-left: 19.2vw;
+    border-radius: 0.5vw;
+    outline: 0;
+    margin-top: 1vh;
+}
+#senha{
+    width: 18.6vw;
+    margin-left: 19.2vw;
+    margin-top: 1vh;
+    height: 4.5vh;
+    border-radius: 0.5vw;
+    outline: 0;
+}
+
+
+#button-entrar{
+    margin-left: 25vw;
+    margin-top: 3vh;
+    height: 4vh;
+    width: 8vw;
+    border-radius: 0.5vw;
+    outline: 0;
+    border:none;
+    background-color: #9e3c38;
+    color: white;
+    font-size: 1vw;
+}
+
+
+#button-entrar:hover{
+    background-color: #b14541;
+    cursor: pointer;
+}
+#button-cadastrar{
+    padding:0;
+    margin-left: 25vw;
+    margin-top: 1vh;
+    height: 4vh;
+    width: 8vw;
+    border-radius: 0.5vw;
+    outline: 0;
+    background-color:transparent;
+    border:none;
+    text-decoration: underline;
+    color: #9e3c38;
+    font-size: 1vw;
+}
+#button-cadastrar:hover{
+    cursor: pointer;
+}
+
+
+#senha{
+    border: 0.1vw solid black;
+}
+
+#usuario{
+    border: 0.1vw solid black;  
+}
+

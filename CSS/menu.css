@@ -1,0 +1,104 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding:0;
+    background-color:rgb(97, 97, 97);
+    font-family: Helvetica, sans-serif;
+    
+}
+#computador{
+    width: 60vw;
+    height: 60vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(153deg, rgba(255,255,255,1) 50%, rgba(215,215,215,1) 50%, rgba(215,215,215,1) 100%);    
+    border-radius: 0.5vw;
+    position: absolute;
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#header{
+    width: 60vw;
+    height: 16vh;
+    float: left;
+}
+#logo{
+    height: 8vh;
+    margin-top: 3vh;
+    margin-left: 1vw;
+    float: left;
+}
+
+#button-mdt{
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    float: left;
+    background: transparent;
+}
+#mdt{
+    display: block;
+    height: 9vh;
+    margin-top: 3vh;
+    margin-left: 1vw;
+}
+ 
+
+#sair{
+    height: 5vh;
+}
+#button-sair{
+    margin-top: 3.5vh;
+    margin-left: 32.3vw;
+    background: transparent;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    float: left;
+}
+
+#menu{
+    
+    margin: 0;
+    padding: 0;
+    width: 60vw;
+    height: 44vh;
+    font-size: 2vw;
+    
+}
+#protocolo{
+    margin-left: 10vw;
+    font-size: 1.1vw;
+}
+#prontuario{
+    margin-left: 5vh;
+    font-size: 1.1vw;
+}
+
+#quadro-de-aviso{
+    margin-left: 5vh;
+    font-size: 1.1vw;
+}
+#cadastro-empresa{
+    margin-left: 10vw;
+    font-size: 1.1vw;
+}
+
+.botao-menu{
+    width: 20vw;
+    height: 10vh;
+    background-color: #9e3c38;
+    float: left;
+    border: none;
+    cursor: pointer;
+    margin-top: 5vh;
+    outline: 0;
+    border-radius: 0.5vw;
+    color: white;
+    
+}
+
+.botao-menu:hover{
+    background-color: #8a3633;
+}
